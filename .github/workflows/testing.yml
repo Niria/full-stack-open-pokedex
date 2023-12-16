@@ -25,4 +25,4 @@ jobs:
       - name: testing contains
         if: ${{ !contains(join(github.event.commits.*.message), '#skip') }}
         run: |
-          echo "it worked I think"
+          echo "it works"
